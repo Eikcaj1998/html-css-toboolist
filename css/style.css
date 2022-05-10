@@ -1,0 +1,48 @@
+body{
+    font-style: arial;
+    background-color: grey;
+    margin: 0;
+}
+.tboolist{
+ box-sizing: border-box;
+ width: 1080;
+ margin: auto;
+ background-color:;
+}
+header{
+    width: 1080;
+    height:auto;
+    background-color: white;
+    padding: 20px;
+
+}
+
+.logo{
+    width: 50px;
+    vertical-align: middle;
+
+
+}
+h1{
+    font-size: 50px;
+   line-height: 50px;
+   display: inline;
+   font-weight: normal;
+   vertical-align: middle;
+}
+main{
+    border-top: 20px;
+    background-color: grey;
+
+}
+.content{
+    width: 60%;
+    margin: 0;
+    background-color: white;
+}
+button{
+    background-color: aqua;
+    border-style: none;
+    border-radius: 3px;
+    padding: 10px;
+}
