@@ -7,13 +7,13 @@ body{
  box-sizing: border-box;
  width: 1080;
  margin: auto;
- background-color:;
 }
 header{
     width: 1080;
     height:auto;
     background-color: white;
     padding: 20px;
+    margin-bottom: 35px;
 
 }
 
@@ -31,18 +31,55 @@ h1{
    vertical-align: middle;
 }
 main{
-    border-top: 20px;
     background-color: grey;
 
+
+
 }
-.content{
-    width: 60%;
-    margin: 0;
+.select-button{
+margin-top: 20px;
     background-color: white;
+ width: 50%;
+ margin: auto;
+ padding:15px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
 }
 button{
-    background-color: aqua;
+    background-color: #47ADF1;
     border-style: none;
     border-radius: 3px;
-    padding: 10px;
+  
+   
+
 }
+.task{
+    background-color: #47ADF1;
+    color: white;
+    margin-left: 28px;
+}
+
+.section{
+    background-color: white;
+    color: grey;
+    border-style: solid;
+   border-color: grey;
+}
+.container{
+    background-color: white;
+ width: 50%;
+ margin: auto;
+ padding:15px;
+ margin-top: 1px;
+}
+ul{   
+    list-style:none;
+}
+#option{
+    padding-left: 0;
+}
+.check{
+    color: green;
+    border-style: solid;
+    border-radius: 16px;
+    border: 0.5px;
