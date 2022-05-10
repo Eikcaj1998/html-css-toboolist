@@ -1,11 +1,11 @@
 body{
-    font-style: arial;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: grey;
     margin: 0;
 }
 .tboolist{
  box-sizing: border-box;
- width: 1080;
+ width: 1080px;
  margin: auto;
 }
 header{
@@ -75,11 +75,12 @@ button{
  padding:15px;
  margin-top: 1px;
 }
+.list{
+    margin-left: 33px;
+}
 ul{   
     list-style:none;
-}
-#option{
-    padding-left: 0;
+    padding-inline-start: 0;
 }
 .check{
     color: green;
@@ -94,12 +95,13 @@ ul{
     border-width: 1px;
 }
 li{
-  margin-top: 20px;  
+  margin-top: 20px; 
+  padding-left: 0; 
 }
-#task-name{
+.task-name{
     margin-top: 30px;  
 }
-#edit{
+.edit{
     border: none ;
     border-radius: 11px;
     background-color: #47ADF1;
