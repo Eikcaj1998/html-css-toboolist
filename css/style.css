@@ -9,7 +9,6 @@ body{
  margin: auto;
 }
 header{
-    width: 1080;
     height:auto;
     background-color: white;
     padding: 20px;
@@ -46,9 +45,10 @@ margin-top: 20px;
  border-top-right-radius: 5px;
 }
 button{
-    background-color: #47ADF1;
+
     border-style: none;
-    border-radius: 3px;
+    border-radius: 8px;
+    padding: 5px;
   
    
 
@@ -57,6 +57,8 @@ button{
     background-color: #47ADF1;
     color: white;
     margin-left: 28px;
+    padding: 6px;
+
 }
 
 .section{
@@ -65,6 +67,7 @@ button{
     border-style: solid;
    border-color: grey;
 }
+/* main */
 .container{
     background-color: white;
  width: 50%;
@@ -80,6 +83,60 @@ ul{
 }
 .check{
     color: green;
-    border-style: solid;
+    border: solid;
     border-radius: 16px;
-    border: 0.5px;
+    border-width: 1px;
+}
+.cross{
+    color: red;
+    border: solid;
+    border-radius: 16px;
+    border-width: 1px;
+}
+li{
+  margin-top: 20px;  
+}
+#task-name{
+    margin-top: 30px;  
+}
+#edit{
+    border: none ;
+    border-radius: 11px;
+    background-color: #47ADF1;
+    margin-left: 3px;
+    padding: 5px;
+}
+#goal{
+    border: none ;
+    border-radius: 11px;
+    background-color: #9C72E4;
+    margin-left: 3px;
+    padding: 5px;
+}#recruit{
+    border: none ;
+    border-radius: 11px;
+    background-color: #64C0A9;
+    margin-left: 3px;
+    padding: 5px;
+}#mobile{
+    border: none ;
+    border-radius: 11px;
+    background-color: #F29E33;
+    margin-left: 3px;
+    padding: 5px;
+}#web{
+    border: none ;
+    border-radius: 11px;
+    background-color: #D863A1;
+    margin-left: 3px;
+    padding: 5px;
+}#sales{
+    border: none ;
+    border-radius: 11px;
+    background-color: #B0C926;
+    margin-left: 3px;
+    padding: 5px;
+}
+span{
+    margin-right: 9px;
+}

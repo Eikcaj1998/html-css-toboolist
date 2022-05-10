@@ -17,30 +17,36 @@
     </header>
     <main>
         <div class="select-button">
-            <button class="task">add task</button> 
-            <button class="section">add section</button>
+            <button class="task">Add task</button> 
+            <button class="section">Add section</button>
         </div>           
         <div class="container">
-            <ul>
+            <ul> 
+                <nav id="task-name">
                 <li>&#9660;New Task
+                </nav>
                     <ul id="option">
-                    <li><span class="check">&#10003;</span>Quaterly Newsletter</li>
+                    <li><span class="check">&#10003;</span>Quaterly Newsletter<span id="edit">Editorial</span></li> 
                     </ul>
                 </li>
+                <nav id="task-name">
                 <li>&#9660;Today
+                </nav>
                     <ul id="option">
-                        <li><span class="check">&#10003;</span></li>
-                        <li><span class="check">&#10003;</span></li>
-                        <li></li>
-                        <li><span class="check">&#10003;</span></li>
+                        <li><span class="check">&#10003;</span>Recruiting blog post<span id="edit">Editorial</span></li>
+                        <li><span class="check">&#10003;</span>Mobile app launch <span id="goal">Q1 Goals</span></li>
+                        <li><span class="cross">X</span>Interview John H.<span id="recruit"> Recruiting</span></li>
+                        <li><span class="check">&#10003;</span>Summit Update to mobile storefronts<span id="mobile"> Mobile</span></li>
                     </ul>
                 </li>
+                <nav id="task-name">
                 <li>&#9660;Upcoming
+                </nav>
                     <ul id="option">
-                        <li></li>
-                        <li><span class="check">&#10003;</span></li>
-                        <li><span class="check">&#10003;</span></li>
-                        <li><span class="check">&#10003;</span></li>
+                        <li><span class="cross">X</span>Schedule meeting Alex</li>
+                        <li><span class="check">&#10003;</span>Homepage refresh <span id="web">Website</span></li>
+                        <li><span class="check">&#10003;</span>Onboard new Sales team members<span id="sales"> Sales</span></li>
+                        <li><span class="check">&#10003;</span>Review Editorial calendar<span id="edit">Editorial</span></li>
                     </ul>
                 </li>
             </ul>
